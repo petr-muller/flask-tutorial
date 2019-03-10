@@ -3,3 +3,4 @@ tags
 __pycache__
 app.db
 logs
+.idea

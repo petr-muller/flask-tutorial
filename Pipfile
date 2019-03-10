@@ -10,7 +10,7 @@ flask-migrate = "*"
 flask-login = "*"
 flask-wtf = "*"
 python-dotenv = "*"
-black = "*"
+black = "==18.9b0"
 
 [dev-packages]
 
