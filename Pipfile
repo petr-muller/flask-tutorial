@@ -13,6 +13,7 @@ python-dotenv = "*"
 black = "==18.9b0"
 flask-mail = "*"
 pyjwt = "*"
+flask-bootstrap = "*"
 
 [dev-packages]
 
