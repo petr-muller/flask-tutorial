@@ -16,3 +16,4 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     ADMINS = ["spambox@afri.cz"]
     POSTS_PER_PAGE = 3
+    LANGUAGES = ["en", "cs"]

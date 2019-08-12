@@ -1,0 +1,276 @@
+# Czech translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-08-13 23:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: cs\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: app/__init__.py:47
+msgid "Microblog Failure"
+msgstr "Microblog: Chyba"
+
+#: app/email.py:20
+msgid "[Microblog] Reset Your Password"
+msgstr "Reset hesla"
+
+#: app/forms.py:10 app/forms.py:17 app/forms.py:37
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: app/forms.py:11 app/forms.py:19 app/forms.py:63
+msgid "Password"
+msgstr "Heslo"
+
+#: app/forms.py:12
+msgid "Remember Me"
+msgstr "Zapamatovat"
+
+#: app/forms.py:13 app/routes.py:71 app/templates/login.html:5
+msgid "Sign In"
+msgstr "Login"
+
+#: app/forms.py:18 app/forms.py:58
+msgid "Email"
+msgstr "Email"
+
+#: app/forms.py:21 app/forms.py:65
+msgid "Repeat Password"
+msgstr "Heslo (znovu)"
+
+#: app/forms.py:23 app/routes.py:93 app/templates/register.html:5
+msgid "Register"
+msgstr "Registrace"
+
+#: app/forms.py:28 app/forms.py:49
+msgid "Please use a different username"
+msgstr "Zvolte jiné uživatelské jméno"
+
+#: app/forms.py:33
+msgid "Please use a different email address"
+msgstr "Zvolte jiný email"
+
+#: app/forms.py:38
+msgid "About me"
+msgstr "O mně"
+
+#: app/forms.py:39 app/forms.py:54
+msgid "Submit"
+msgstr "OK"
+
+#: app/forms.py:53
+msgid "Say something"
+msgstr "Řekni něco"
+
+#: app/forms.py:59 app/forms.py:67
+msgid "Request Password Reset"
+msgstr "Resetuj heslo"
+
+#: app/routes.py:38
+msgid "Your post is now live!"
+msgstr "Tvůj post byl odeslán!"
+
+#: app/routes.py:46
+msgid "Home Page"
+msgstr "Home Page"
+
+#: app/routes.py:64
+msgid "Invalid username or password"
+msgstr "Neplatné uživatelské jméno nebo heslo"
+
+#: app/routes.py:91
+msgid "Congratulations, you are now a registered user"
+msgstr "Gratujujeme k úspěšné registraci"
+
+#: app/routes.py:120
+msgid "Your changes have been saved"
+msgstr "Změna byla uložena"
+
+#: app/routes.py:125 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Změna profilu"
+
+#: app/routes.py:133 app/routes.py:149
+#, python-format
+msgid "User %(username)s not found"
+msgstr "Uživatel %(username)s nebyl nalezen"
+
+#: app/routes.py:136
+msgid "You cannot follow yourself!"
+msgstr "Nelze sledovat sám sebe"
+
+#: app/routes.py:140
+#, python-format
+msgid "You are following %(username)s"
+msgstr "Začal jsi sledovat %(username)s"
+
+#: app/routes.py:152
+#, python-format
+msgid "You do not follow user %(username)s"
+msgstr "Nesleduješ uživatele %(username)s"
+
+#: app/routes.py:156
+#, python-format
+msgid "You have unfollowed user %(username)s"
+msgstr "Sledování uživatele %(username)s bylo zrušeno"
+
+#: app/routes.py:167 app/templates/base.html:28
+msgid "Explore"
+msgstr "Prozkoumat"
+
+#: app/routes.py:179
+msgid "Check your email for the instructions to reset your password"
+msgstr "Na email byly odeslány instrukce k resetování hesla"
+
+#: app/routes.py:181 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Resetuj heslo"
+
+#: app/routes.py:195
+msgid "Your password has been reset"
+msgstr "Heslo bylo resetováno"
+
+#: app/templates/404.html:4
+msgid "File Not Found"
+msgstr "Nenalezeno"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Zpět"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Nastala neznámá chyba"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Chyba byla nahlášena administrátorům. Omlouváme se za nepříjemnost!"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(user)s said %(when)s"
+msgstr "%(user)s %(when)s řekl(a)"
+
+#: app/templates/base.html:10
+msgid "Welcome to Microblog!"
+msgstr "Vítej na Microblogu!"
+
+#: app/templates/base.html:18
+msgid "Toggle navigation"
+msgstr "Navigace"
+
+#: app/templates/base.html:27
+msgid "Home"
+msgstr "Domů"
+
+#: app/templates/base.html:32
+msgid "Login"
+msgstr "Přihlásit"
+
+#: app/templates/base.html:34
+msgid "Profile"
+msgstr "Profil"
+
+#: app/templates/base.html:35
+msgid "Logout"
+msgstr "Odhlásit"
+
+#: app/templates/index.html:4
+#, python-format
+msgid "Hello, %(user)s!"
+msgstr "Ahoj, %(user)s!"
+
+#: app/templates/index.html:25 app/templates/user.html:30
+msgid "Newer posts"
+msgstr "Novější"
+
+#: app/templates/index.html:30 app/templates/user.html:35
+msgid "Older posts"
+msgstr "Starší"
+
+#: app/templates/login.html:11
+msgid "New user?"
+msgstr "Nový uživatel?"
+
+#: app/templates/login.html:11
+msgid "Click to Register!"
+msgstr "Registruj se!"
+
+#: app/templates/login.html:13
+msgid "Forgot your password?"
+msgstr "Zapomenuté heslo"
+
+#: app/templates/login.html:14
+msgid "Click to Reset It"
+msgstr "Resetovat heslo"
+
+#: app/templates/user.html:8
+#, python-format
+msgid "User: %(username)s"
+msgstr "Uživatel: %(username)s"
+
+#: app/templates/user.html:10
+#, python-format
+msgid "Last seen on: %(when)s"
+msgstr "Naposled online %(when)s"
+
+#: app/templates/user.html:11
+#, python-format
+msgid "%(followers)d followers, %(followed)d following."
+msgstr "Sledován %(followers)d uživateli, sleduje %(followed)d uživatelů"
+
+#: app/templates/user.html:13
+msgid "Edit your profile"
+msgstr "Editovat profil"
+
+#: app/templates/user.html:15
+msgid "Follow"
+msgstr "Sledovat"
+
+#: app/templates/user.html:17
+msgid "Unfollow"
+msgstr "Zrušit sledování"
+
+#: app/templates/email/reset_password.html:1
+#, python-format
+msgid "Dear %(user)s"
+msgstr "Ahoj, %(user)s"
+
+#: app/templates/email/reset_password.html:3
+msgid "To reset your password"
+msgstr "Pro reset hesla"
+
+#: app/templates/email/reset_password.html:4
+msgid "click here"
+msgstr "klikni zde"
+
+#: app/templates/email/reset_password.html:6
+msgid ""
+"Alternatively, you can paste the following link in your browser's address"
+" bar"
+msgstr "Popřípadě zkopíruj tento link do svého prohlížeče"
+
+#: app/templates/email/reset_password.html:8
+msgid "If you have not requested a password reset simply ignore this message"
+msgstr "Pokud jsi nepožádal(a) o reset hesla, jednoduše tuto zprávu ignoruj"
+
+#: app/templates/email/reset_password.html:9
+msgid "Sincerely"
+msgstr "Čus"
+
+#: app/templates/email/reset_password.html:10
+msgid "The Microblog Team"
+msgstr "Tým Microblogu"
+
