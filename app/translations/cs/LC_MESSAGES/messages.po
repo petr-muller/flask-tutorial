@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-13 23:56+0200\n"
+"POT-Creation-Date: 2019-10-29 00:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: cs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-#: app/__init__.py:47
+#: app/__init__.py:46
 msgid "Microblog Failure"
 msgstr "Microblog: Chyba"
 
@@ -38,7 +38,7 @@ msgstr "Heslo"
 msgid "Remember Me"
 msgstr "Zapamatovat"
 
-#: app/forms.py:13 app/routes.py:71 app/templates/login.html:5
+#: app/forms.py:13 app/routes.py:76 app/templates/login.html:5
 msgid "Sign In"
 msgstr "Login"
 
@@ -50,7 +50,7 @@ msgstr "Email"
 msgid "Repeat Password"
 msgstr "Heslo (znovu)"
 
-#: app/forms.py:23 app/routes.py:93 app/templates/register.html:5
+#: app/forms.py:23 app/routes.py:98 app/templates/register.html:5
 msgid "Register"
 msgstr "Registrace"
 
@@ -78,69 +78,78 @@ msgstr "Řekni něco"
 msgid "Request Password Reset"
 msgstr "Resetuj heslo"
 
-#: app/routes.py:38
+#: app/routes.py:43
 msgid "Your post is now live!"
 msgstr "Tvůj post byl odeslán!"
 
-#: app/routes.py:46
+#: app/routes.py:51
 msgid "Home Page"
 msgstr "Home Page"
 
-#: app/routes.py:64
+#: app/routes.py:69
 msgid "Invalid username or password"
 msgstr "Neplatné uživatelské jméno nebo heslo"
 
-#: app/routes.py:91
+#: app/routes.py:96
 msgid "Congratulations, you are now a registered user"
 msgstr "Gratujujeme k úspěšné registraci"
 
-#: app/routes.py:120
+#: app/routes.py:125
 msgid "Your changes have been saved"
 msgstr "Změna byla uložena"
 
-#: app/routes.py:125 app/templates/edit_profile.html:5
+#: app/routes.py:130 app/templates/edit_profile.html:5
 msgid "Edit Profile"
 msgstr "Změna profilu"
 
-#: app/routes.py:133 app/routes.py:149
+#: app/routes.py:138 app/routes.py:154
 #, python-format
 msgid "User %(username)s not found"
 msgstr "Uživatel %(username)s nebyl nalezen"
 
-#: app/routes.py:136
+#: app/routes.py:141
 msgid "You cannot follow yourself!"
 msgstr "Nelze sledovat sám sebe"
 
-#: app/routes.py:140
+#: app/routes.py:145
 #, python-format
 msgid "You are following %(username)s"
 msgstr "Začal jsi sledovat %(username)s"
 
-#: app/routes.py:152
+#: app/routes.py:157
 #, python-format
 msgid "You do not follow user %(username)s"
 msgstr "Nesleduješ uživatele %(username)s"
 
-#: app/routes.py:156
+#: app/routes.py:161
 #, python-format
 msgid "You have unfollowed user %(username)s"
 msgstr "Sledování uživatele %(username)s bylo zrušeno"
 
-#: app/routes.py:167 app/templates/base.html:28
+#: app/routes.py:172 app/templates/base.html:43
 msgid "Explore"
 msgstr "Prozkoumat"
 
-#: app/routes.py:179
+#: app/routes.py:184
 msgid "Check your email for the instructions to reset your password"
 msgstr "Na email byly odeslány instrukce k resetování hesla"
 
-#: app/routes.py:181 app/templates/reset_password_request.html:5
+#: app/routes.py:186 app/templates/reset_password_request.html:5
 msgid "Reset Password"
 msgstr "Resetuj heslo"
 
-#: app/routes.py:195
+#: app/routes.py:200
 msgid "Your password has been reset"
 msgstr "Heslo bylo resetováno"
+
+#: app/translate.py:9
+msgid "Error: the translation service is not configured"
+msgstr "Chyba: Překladová služba není nakonfigurovaná"
+
+#: app/translate.py:19
+#, python-format
+msgid "Error: the translation service failed (status=%(status)d"
+msgstr "Chyba: Selhala překladová služba (status=%(status)d)"
 
 #: app/templates/404.html:4
 msgid "File Not Found"
@@ -163,27 +172,36 @@ msgstr "Chyba byla nahlášena administrátorům. Omlouváme se za nepříjemnos
 msgid "%(user)s said %(when)s"
 msgstr "%(user)s %(when)s řekl(a)"
 
-#: app/templates/base.html:10
+#: app/templates/_post.html:20
+#, python-format
+msgid "Translate from %(source)s to %(target)s"
+msgstr "Přeložit z %(source)s do %(target)s"
+
+#: app/templates/base.html:18
+msgid "Error: Could not contact server."
+msgstr "Chyba: Nepodařilo se spojit se serverem."
+
+#: app/templates/base.html:25
 msgid "Welcome to Microblog!"
 msgstr "Vítej na Microblogu!"
 
-#: app/templates/base.html:18
+#: app/templates/base.html:33
 msgid "Toggle navigation"
 msgstr "Navigace"
 
-#: app/templates/base.html:27
+#: app/templates/base.html:42
 msgid "Home"
 msgstr "Domů"
 
-#: app/templates/base.html:32
+#: app/templates/base.html:47
 msgid "Login"
 msgstr "Přihlásit"
 
-#: app/templates/base.html:34
+#: app/templates/base.html:49
 msgid "Profile"
 msgstr "Profil"
 
-#: app/templates/base.html:35
+#: app/templates/base.html:50
 msgid "Logout"
 msgstr "Odhlásit"
 

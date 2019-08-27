@@ -17,3 +17,4 @@ class Config:
     ADMINS = ["spambox@afri.cz"]
     POSTS_PER_PAGE = 3
     LANGUAGES = ["en", "cs"]
+    MS_TRANSLATOR_KEY = os.environ.get("MS_TRANSLATOR_KEY")
